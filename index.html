@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BanaKrips</title>
+
+    <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+    rel="stylesheet">
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Bana<span>Krips</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#varian">Varian</a>
+        <a href="#products">Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+      <a href="#" id="search-button"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+
+    <!-- Search Form Start -->
+     <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box"><i data-feather="search"></i></label>
+     </div>
+    <!-- Search Form end -->
+
+
+     <!-- Shopping Cart Start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/products/produkcoklat.png" alt="Product 1">
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/produkstroberi.png" alt="Product 2">
+          <div class="item-detail">
+            <h3>Product 2</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/produkmatcha.png" alt="Product 3">
+          <div class="item-detail">
+            <h3>Product 3</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+     <!-- Shopping Cart end -->
+
+
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+     <section class="hero" id="home">
+      <main class="content">
+        <h1>Temukan Camilan Favoritmu</h1>
+        <p>Lezatnya bikin nagih, harganya bersahabat, cocok buat teman santai setiap saat</p>
+      </main>
+     </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+     <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/ab2.png" alt="Tentang Kami">
+        </div>
+        <div class="content">
+          <h3>Kenapa Memilih Snack BanaKrips ?</h3>
+          <p>Bukan sekadar keripik biasa—BanaKrips dibuat dari pisang pilihan dengan rasa dan tekstur yang bikin penasaran.</p>
+          <p>Diproses dengan resep rahasia dan bumbu khas, setiap gigitan dijamin bikin lidah nggak mau berhenti ngemil. Ayo buruan beli !!!</p>
+        </div>
+      </div>
+     </secttion>
+    <!-- About Section end -->
+
+    <!-- Varian Section start-->
+     <section id="varian" class="varian">
+       <h2><span>Jenis</span> Varian</h2>
+       <p>Temukan varian rasa spesial dan unik untuk menemani waktu terbaik kamu setiap hari .</p>
+
+       <div class="row">
+        <div class="varian-card">
+          <img src="img/varian/10.jpg" alt="Coklat Lumer" class="varian-card-img">
+          <h3 class="varian-card-title">~ Coklat Lumer ~</h3>
+          <p class="varian-card-price">IDR 30K</p>
+        </div>
+        <div class="varian-card">
+          <img src="img/varian/20.png" alt="Stroberi Lumer" class="varian-card-img">
+          <h3 class="varian-card-title">~ Stroberi Lumer ~</h3>
+          <p class="varian-card-price">IDR 30K</p>
+        </div>
+        <div class="varian-card">
+          <img src="img/varian/30.png" alt="Matcha Lumer" class="varian-card-img">
+          <h3 class="varian-card-title">~  Matcha Lumer ~</h3>
+          <p class="varian-card-price">IDR 30K</p>
+        </div>
+       </div>
+     </section>
+    <!-- varian Section end-->
+
+    <!-- Products Section Start -->
+     <section class="products" id="products">
+      <h2><span>Produk</span> Kami</h2>
+      <p>BanaKrips menyediakan beberapa jenis varian rasa yang bisa menemani kamu bersantai di rumah</p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/produkcoklat.png" alt="Product 1">
+          </div>
+          <div class="product-content">
+            <h3>BanaKrips </h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 40k</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/produkstroberi.png" alt="Product 2">
+          </div>
+          <div class="product-content">
+            <h3>BanaKrips </h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 40k</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/produkmatcha.png" alt="Product 3">
+          </div>
+          <div class="product-content">
+            <h3>BanaKrips </h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 40k</span></div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- Products Section end -->
+
+    <!-- Contact Section Start -->
+     <section id="contact" class="contact">
+       <h2><span>Kontak</span> Kami</h2>
+       <p>Tim kami siap membantu Anda dengan respons cepat dan pelayanan terbaik.</p>
+
+       <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126933.05761393187!2d106.56763106288939!3d-6.17651053517101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f8e853d2e38d%3A0x301576d14feb9c0!2sTangerang%2C%20Kota%20Tangerang%2C%20Banten!5e0!3m2!1sid!2sid!4v1750863635128!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+        <form id="contact-form">
+      <div class="input-group">
+        <i data-feather="user"></i>
+        <input type="text" id="nama" placeholder="nama" />
+      </div>
+      <div class="input-group">
+        <i data-feather="mail"></i>
+        <input type="text" id="email" placeholder="e-mail" />
+      </div>
+      <div class="input-group">
+        <i data-feather="phone"></i>
+        <input type="text" id="nohp" placeholder="no hp" />
+      </div>
+      <button type="button" class="btn" id="kirimWA">kirim pesan</button>
+    </form>
+  </div>
+</section>
+    <!-- Contact Section end -->
+
+    <!-- Footer Start -->
+     <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#varian">Jenis Varian</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">Elsa Yulianti.</a>. | &copy; 2025.</p>
+      </div>
+     </footer>
+    <!-- Footer end -->
+
+    <!-- Modal Box Item Detail start-->
+     <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/products/produkcoklat.png" alt="Product">
+          <div class="product-content">
+            <h3>Product </h3>
+            <p>BanaKrips _camilan renyah yang dibalut lelehan rasa istimewa. Dibuat dari pisang pilihan yang dirilis tipis dan digoreng hingga garing sempurna, lalu dilumuri dengan rasa yang menggoda.</p>
+            <div class="product-content">
+            <h3>BanaKrips </h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 40k</span></div>
+            <a href="#"><i data-feather="shopping-cart"></i> <span>add to cart</span></a>
+          </div>
+        </div>
+      </div>
+     </div>
+    <!-- Modal Box Item Detail end-->
+
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+     <script src="js/script.js"></script>
+
+     <script>
+  // Kirim data ke WhatsApp
+  document.getElementById('kirimWA').addEventListener('click', function () {
+    const nama = document.getElementById('nama').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const nohp = document.getElementById('nohp').value.trim();
+
+    const noWaTujuan = '6281398430163'; // GANTI dengan nomor WA kamu
+
+    if (nama === '' || email === '' || nohp === '') {
+      alert('Harap isi semua data terlebih dahulu!');
+      return;
+    }
+
+    const pesan = `Halo, saya ${nama}.%0AEmail: ${email}%0ANo HP: ${nohp}%0ASaya ingin memesan BanaKrips.`;
+
+    const url = `https://wa.me/${noWaTujuan}?text=${pesan}`;
+    window.open(url, '_blank');
+
+    // Reset form (opsional)
+    document.getElementById('contact-form').reset();
+  });
+</script>
+  </body>
+</html>
