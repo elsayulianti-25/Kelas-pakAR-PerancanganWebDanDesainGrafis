@@ -2,7 +2,7 @@
 
 Website resmi untuk **Bananakrips**, brand keripik pisang yang kreatif dan lezat, dikembangkan sebagai bagian dari proyek Bisnis Digital.
 
-🌐 Live: [https://bananakrips.bisdig23.com](https://bananakrips.bisdig.com)
+🌐 Live: https://bananakrips.bisdig23.com/
 
 ## 📌 Deskripsi
 
